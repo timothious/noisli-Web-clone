@@ -1,0 +1,419 @@
+.custom {
+    background-color: #ffffff;
+}
+
+
+
+.navbar-light {
+  
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out 0s;
+    height: 60px;
+    font-weight: 500;
+    
+}
+
+
+.navbar-light .navbar-brand {
+    color: #5de4b4; 
+    padding: 12px;
+    
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #5de4b4; 
+    padding: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5de4b4; 
+    padding: 12px;
+}   
+
+.navbar-light .navbar-nav .nav-item {
+    padding-right: 14px; 
+}
+
+.btn-sighnup .btn 
+    {   
+        padding-top: 100px;
+        position: relative;
+        font-size: 14px;
+        font-weight: 700;
+       
+        color: rgb(92, 229, 180);
+        background-color: rgb(92, 229, 180);
+        box-shadow: rgba(255, 254, 254, 0.05) 0px 2px 4px;
+        transition: background-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;   
+       
+    }
+
+
+.btn-sighnup .btn{
+    color: #f2f5f4;
+    font-weight: 700    ;
+    border-radius: 20px; 
+    padding: 10px 20px;
+}
+
+
+
+.CallToActionstyled__Container{
+    padding-top: 10%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.CallToActionstyled__Text{
+    margin: 0px;
+    color: rgb(102, 102, 102);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+
+}
+.CallToActionsty{
+    margin: 21px 0px 0px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+
+
+.content-section {
+    background-color: #ffffff;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center; /* Align items vertically */
+    justify-content: center;
+    text-align: left;
+    color: #000; /* Change to your desired text color */
+}
+
+.best-value{
+    color: #5de4b4;
+}
+.text-content {
+    padding-top: 5%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    color: rgb(102, 102, 102);
+    font-weight: 500;
+    font-size: 15px;
+}
+
+.bill-monthly,
+.bill-yearly,
+.best-value {
+    margin-right: 20px;
+}
+
+/*-------------------------------------------Price Table-------------------------------------------*/
+
+.PricingTables {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 800;
+}
+.price-col {
+    width: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 44px 25px; 
+    position: relative;
+    border-radius: 22px;
+    border: 2px solid transparent;
+    background-color: rgb(255, 255, 255);
+    transition: background-color 0.2s ease-in-out, border-color 0.2s ease-in-out; 
+    margin-right: 15px;
+}
+
+.price-col:hover {
+    background-color: #f0f0f0; 
+    border-color: #98fbe4;
+}
+
+.price-col:hover .header,
+.price-col:hover .basic-text,
+.price-col:hover .Pricing {
+    color: #e46060; 
+}
+
+.header{
+
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 21px;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-bottom: 4px;
+}
+
+.container-padding{
+    padding-top: 25px;
+  
+}
+.basic-text{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 16px;
+    color: rgba(102, 102, 102, 0.5);
+    text-align: center;
+    margin-bottom: 28px;
+}
+
+.Pricing{
+    
+        display: flex;
+        align-items: flex-end;
+        font-size: 40px;
+        font-weight: 600;
+        color: rgb(102, 102, 102);
+        text-align: center;
+        margin-bottom: 15px;
+    
+}
+.Pricingdolar{
+        font-size: 18px;
+}
+.price-text{
+    
+        max-width: 96px;
+        height: 30px;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 15px;
+        color: rgba(102, 102, 102, 0.5);
+        text-align: center;
+        margin-bottom: 44px;
+    
+}
+.user-text{
+    display: flex;
+    -webkit-box-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    height: 30px;
+    width: 180px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgb(102, 102, 102);
+    margin-bottom: 22px 
+}
+.pricing-list{
+    
+        width: 180px;
+        display: flex;
+        flex-direction: column;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-bottom: 44px;
+}
+ul{
+    list-style: none;
+}
+.pricing-list-content{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgb(102, 102, 102);
+}
+.pricing-circle{
+    display: inline-flex;
+    position: absolute;
+    right: 3px;
+    top: 4px;
+    width: 16px;
+    height: 16px;
+    color: rgba(0, 0, 0, 0.16);
+}
+.price-line{
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+    color: rgb(102, 102, 102);
+
+}
+.user-counter {
+    display: inline-flex;
+    align-items: center;
+    font-size: 16px;
+}
+
+.counter-box {
+    cursor: pointer;
+    margin: 0 5px;
+    width: 20px;
+    height: 20px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid #ccc;
+    border-radius: 50%;
+    font-weight: bold;
+}
+
+#user-count {
+    margin: 0 5px;
+    font-weight: bold;
+}
+
+.counter-box:hover {
+    background-color: #f0f0f0;
+}
+
+.price-button {
+    width: 100%; 
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: #f2f5f4;
+    background-color: rgb(92, 229, 180);
+    box-shadow: rgba(255, 254, 254, 0.05) 0px 2px 4px;
+    transition: background-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    border-radius: 20px;
+    padding: 10px 20px; 
+}
+.footer-row {
+    border-top: 1px solid #dbd9d9;
+    padding-bottom: 100px; 
+    
+}   
+.row{
+    padding: 100px;
+}
+
+/*
+--------------------------------Faq Content---------------------------
+*/
+.facts {
+    padding-top: 10%;
+    max-width: 540px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto; 
+}
+
+.content {
+    width: 100%;
+    margin-bottom: 44px;
+}
+
+.faq-content {
+    width: 100%;
+    font-size: 32px;
+    font-weight: 700;
+    color: rgb(102, 102, 102);
+    text-align: center;
+    margin-bottom: 88px;
+}
+
+.faq-header {
+    font-size: 15px;
+    font-weight: 700;
+    line-height: 18px;
+    color: rgb(102, 102, 102);
+    margin-bottom: 12px;
+}
+
+.faq-paragraph {
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 24px;
+    color: rgb(102, 102, 102);
+     
+}
+
+.faq-paragraph a{
+        opacity: 1;
+        transition: opacity 0.2s ease-in-out 0s;
+        text-decoration: underline;
+        color: #666666;
+}
+
+/*--------------------------------------Contact Us------------------------*/
+.need-help{
+    padding-top: 10%;
+    max-width: 540px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    margin: 0 auto;
+}
+.need-help-header{
+    margin: 0px 0px 22px;
+    color: rgb(102, 102, 102);
+    font-size: 18px;
+    font-weight: 600;
+    line-height: 32px;
+    text-align: center;
+}
+
+.contact-button{
+    color: rgb(255, 255, 255);
+    background-color: rgb(92, 229, 180);
+    border: none;
+    border-radius: 18px;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 36px;
+    text-align: center;
+    position: relative;
+    cursor: pointer;
+    text-decoration: none;
+    display: inline-block;
+    padding: 0px 26px;
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
+    transition: background-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+    width: 156px
+}
+
+.empty{
+    height: 264px;
+}
+
+/*----------------------Footer--------------------------*/
+.footer-main-content{
+    
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+    color: rgb(102, 102, 102);
+    margin: 0px
+}
+.footer-content{
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2em;
+    color: rgb(102, 102, 102);
+    text-decoration: none;   
+}
+.text-center p-5 a {
+    text-decoration: none; /* Remove text decoration for normal state */
+}
+.text-center p-5 a:hover{
+    color: #4c4c4d;
+    cursor: pointer;
+}
+.footer-content-logo{
+    padding-top: 10px;  
+}
+
+

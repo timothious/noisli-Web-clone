@@ -1,0 +1,213 @@
+.custom {
+    background-color: #ffffff;
+}
+
+
+
+.navbar-light {
+
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 2px;
+    z-index: 1000;
+    opacity: 1;
+    transition: opacity 0.2s ease-in-out 0s;
+    height: 60px;
+    font-weight: 500;
+
+}
+
+
+.navbar-light .navbar-brand {
+    color: #5de4b4;
+    padding: 12px;
+
+}
+
+.navbar-light .navbar-nav .nav-link.active {
+    color: #5de4b4;
+    padding: 12px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: #5de4b4;
+    padding: 12px;
+}
+
+.navbar-light .navbar-nav .nav-item {
+    padding-right: 14px;
+}
+
+.btn-sighnup .btn {
+    padding-top: 100px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+    color: rgb(92, 229, 180);
+    background-color: rgb(92, 229, 180);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
+    transition: background-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+
+}
+
+
+
+
+
+.btn-sighnup .btn {
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+
+.CallToActionstyled__Container {
+    padding-top: 10%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.CallToActionstyled__Text {
+    margin: 0px;
+    color: rgb(102, 102, 102);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+
+}
+
+.CallToActionsty {
+    margin: 21px 0px 0px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+}
+
+.imgshow {
+    max-width: 100%;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+/*----------------------------Features Content-------------------------*/
+.faetures-content {
+
+    background-position: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.Text_container {
+    padding-bottom: 5%;
+    font-weight: 600;
+    text-align: center;
+}
+
+.header {
+    margin: 0px;
+    color: rgb(102, 102, 102);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.paragraph {
+    width: 350px;
+    margin: 21px 0px 0px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+
+}
+
+.left-column {
+    padding-right: 5%;
+    width: 100px;
+    height: auto;
+
+}
+
+.right-column {
+    padding-left: 5%;
+}
+
+
+.footer-row {
+    border-top: 1px solid #dbd9d9;
+    padding-bottom: 100px;
+}
+
+.row {
+    padding: 100px;
+}
+
+.CallToActions {
+    margin: 21px 0px 0px;
+    color: rgb(102, 102, 102);
+    font-size: 15px;
+    font-weight: 500;
+    line-height: 24px;
+    text-align: center;
+
+
+}
+
+.empty {
+    padding-top: 200px;
+}
+
+.btn-sighnup-2 .btn {
+    padding-top: 100px;
+    position: relative;
+    font-size: 14px;
+    font-weight: 700;
+
+    color: rgb(92, 229, 180);
+    background-color: rgb(92, 229, 180);
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 2px 4px;
+    transition: background-color 0.2s ease-in-out 0s, box-shadow 0.2s ease-in-out 0s;
+
+}
+
+
+.btn-sighnup-2 .btn {
+    color: #ffffff;
+    font-weight: 700;
+    border-radius: 20px;
+    padding: 10px 20px;
+}
+
+/*----------------------Footer--------------------------*/
+
+.footer-main-content {
+
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 2em;
+    color: rgb(102, 102, 102);
+    margin: 0px
+}
+
+.footer-content {
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 2em;
+    color: rgb(102, 102, 102);
+    text-decoration: none;
+}
+
+.text-center p-5 a {
+    text-decoration: none;
+}
+
+.text-center p-5 a:hover {
+    color: #4c4c4d;
+    cursor: pointer;
+}
+
+.footer-content-logo {
+    padding-top: 10px;
+}
